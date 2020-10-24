@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body  link="aquamarine" vlink="white" alink="orange">
+
+    <main>
+        <section id="home">
+            <h2 class="weBuild">We Build <strong>Teams</strong> That Build Your <strong>Software</strong></h2>
+            <p>Intetics creates and operates dedicated teams that deliver custom software solutions, run software testing, perform in-depth analysis of your products and provide expertise in leading enterprise applications development</p>
+                <br><br><br><br> 
+               <div class="face"><b>Facing clients' technological challenges is the essence of the Intetics approach</b></div>
+            <a href="https://intetics.com" class="btn">About Intetics</a>
+            <br>
+            <a class="scroll" href="#homeText"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+        </section>
+
+  
+   <section id="homeText">    
+       
+        <div><b>Intetics</b> - партнер Intetics Inc - международной IT-компании с 23-летней историей, имеющей статусы, 10-й год подряд входящей в <b>The Global Outsourcing Top 100</b>, как одна из лучших компаний по разработке программного обеспечения.
+ <br> <br>
+Мы расширяем команду проекта и приглашаем <b>HTML- coder</b> присоединиться к <b>Intetics</b>.</div>
+       
+       <p class="about"> <b>O проекте:</b> 
+        <br><br> 
+<b>UK</b>-портал управления данными кандидатов и работодателей для ведущей английской рекрутинговой компании. <br>Заказчик имеет 19 представительств и офисов в таких странах как Австралия, Азия, Западная Европа и Северная Америка. <br>Головной офис компании находится в <b>Лондоне</b>. Мы ведем разработку совместно с командой из Лондона.</p>
+
+<br><br>
+       <p class="waiting"><b>Что мы от вас ждем:</b></p>
+<br><br>
+<ul class="waiting">
+
+<li>Хорошие знания HTML5, CSS3;</li>
+<li>Глубокое знание и понимание спецификаций, интерес к изучению и применению новых технологий;</li>
+<li> Знание Adobe Photoshop (или любая другая программа) на уровне работы с макетами;</li>
+<li>Пример последних работ (желательно);</li>
+<li>Английский язык - от Intermediate и выше;</li></ul>
+
+<br><br>
+       <p class="pluses"><b>А также будет большим плюсом:</b></p>
+<br><br>
+<ul class="pluses">
+ 
+<li>Знание JS и верстка email рассылок;</li>
+<li>Опыт с кроссбраузерной и адаптивной версткой;</li>
+<li>Опыт верстки Branded Templates для вакансий.</li></ul>
+
+<br><br> 
+       <p class="benefits"><b>Наши бенефиты:</b></p>
+<br><br>
+<ul  class="benefits"> 
+<li> Стабильная компания с 20-летней историей, резидент ПВТ</li>
+<li> Сотрудничество с постоянными исключительно западноевропейскими и северо-американскими клиентами/более чем 200 клиентами по всему миру<br>
+<li> Все проекты компании длительные, в активной стадии разработки, нет ни одного проекта на суппорте</li>
+<li> Штат сотрудников Минского офиса – около 200 человек, международной компании – около 500</li>
+<li> Комфортный офис в центре города, ст.м. Молодежная</li>
+<li> Конкурентная «белая» заработная плата, защищенная от инфляции</li>
+<li> 28 дней оплачиваемого отпуска</li>
+<li> Оплата больничных листов в 100% реального оклада</li>
+<li> Регулярная система аттестации сотрудников</li>
+<li> Реальная возможность карьерного роста: все наши PM и TL-позиции закрываются внутренним резервом</li>
+<li> Оплата участия в профессиональных тренингах, семинарах, конференциях</li>
+<li> Оплата профессиональных сертификаций и материалов для подготовки к сертификациям</li>
+<li> Компенсация обучения английскому языку на внутренних курсах компании</li>
+<li> Компенсация занятий спортом</li>
+<li> Компенсация обслуживания в медицинском центре</li>
+<li> Оборудованные комнаты отдыха, бесплатные кофе, чай, витамины, лимоны</li>
+<li> Настольный теннис, наборы для игры в дартс, игровые приставки и телевизоры в офисе.</li></ul>
+
+        
+</section>
+
+
+</main>
+
+<footer>
+  <div  class="wer">
+   <div class="for video">
+       <iframe width="860" height="480"  src="https://www.youtube.com/embed/Mh7D1DoFshs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   </div>
+    
+    <div class="for img">
+        <img width="860" height="480" src="stat.jpg" alt="footer statistic" class="footer stat">
+    </div>
+     </div>
+</footer>
+
+
+
+<script>
+var linkNav = document.querySelectorAll('[href^="#"]'),
+    V = 0.5;  // скорость, может иметь дробное значение через точку
+for (var i = 0; i < linkNav.length; i++) {
+  linkNav[i].addEventListener('click', function(e) {
+    e.preventDefault();
+    var w = window.pageYOffset,  // прокрутка
+        hash = this.href.replace(/[^#]*(.*)/, '$1');  // id элемента, к которому нужно перейти
+        t = document.querySelector(hash).getBoundingClientRect().top,  // отступ от окна браузера до id
+        start = null;
+    requestAnimationFrame(step);  // подробнее про функцию анимации [developer.mozilla.org]
+    function step(time) {
+      if (start === null) start = time;
+      var progress = time - start,
+          r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+      window.scrollTo(0,r);
+      if (r != w + t) {
+        requestAnimationFrame(step)
+      } else {
+        location.hash = hash  // URL с хэшем
+      }
+    }
+  }, false);
+}
+</script>
+</body>
+
+</html>

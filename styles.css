@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#home {
+    background-image: url(back2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+#home h2 {
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 350%;
+}
+
+#home p {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 150%;
+
+}
+
+.btn {
+    display: inline-block;
+    padding-top: -20px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(254, 145, 82);
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}
+
+
+#homeText {
+    background-image: url(CLOUDS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.weBuild {
+    margin-bottom: 80px;
+    padding-left: 45%;
+}
+
+#homeText b {
+    font-size: 125%;
+}
+
+.face {
+    text-align: left;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 140%;
+}
+
+#homeText div {
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.about {
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+
+#homeText p {
+
+    margin-top: 50px;
+}
+
+
+.waiting {
+
+    text-align: left;
+    padding-left: 40%;
+}
+
+
+.pluses {
+
+    text-align: left;
+    padding-left: 80%;
+}
+
+.benefits {
+    text-align: left;
+    padding-left: 40%;
+}
+
+.for video {
+    margin: 5px;
+    padding: 10px;
+    float: left;
+}
+
+.for img {
+    margin: 5px;
+    padding: 10px;
+    float: right;
+
+}
+
+iframe {
+        float: left;
+        
+    }
+
+
+
+
+
+@media all and (min-width:1000px) and (max-width: 1800px) {
+
+    iframe {
+        float: left;
+        padding: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer stat {
+        
+        float: right;
+
+    }
+
+    .for video {
+        margin: 0px;
+        padding: 5px;
+        float: left;
+    }
+
+
+}
+
+@media all and (min-width:700px) and (max-width: 1000px) {
+
+    body {
+        width: auto;
+    }
+
+    #home p {
+        max-width: 850px;
+        margin: auto;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 115%;
+        text-align: center;
+    }
+
+
+    #home h2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+        margin-bottom: 80px;
+
+    }
+
+    .pluses {
+
+        text-align: left;
+        padding-left: 20px;
+    }
+
+
+    #homeText b {
+        font-size: 110%;
+    }
+
+    .face {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 120%;
+    }
+
+    iframe {
+        width: 700px;
+float: none;
+    }
+    footer {
+        text-align: center;
+    }
+
+    .for img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+@media all and (max-width: 700px) {
+
+
+    #home h2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .face {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 120%;
+    }
+
+
+
+    #home p {
+        max-width: 850px;
+        margin: auto;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 115%;
+        text-align: center;
+    }
+
+
+    .pluses {
+
+        text-align: left;
+        padding-left: 10px;
+    }
+
+
+    #homeText b {
+        font-size: 110%;
+    }
+
+    iframe {
+        width: 350px;
+float: none;
+    }
+    footer {
+        text-align: center;
+    }
+
+    .for img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+
+    }
+}
